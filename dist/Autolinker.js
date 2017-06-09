@@ -3379,7 +3379,7 @@ Autolinker.matcher.Phone = Autolinker.Util.extend( Autolinker.matcher.Matcher, {
 				matchedText: matchedText,
 				offset: match.index,
 				number: cleanNumber,
-				plusSign: plusSign
+				plusSign: false
 			}));
 		}
 
