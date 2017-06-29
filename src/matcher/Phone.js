@@ -23,7 +23,7 @@ Autolinker.matcher.Phone = Autolinker.Util.extend(Autolinker.matcher.Matcher, {
 	 * @property {RegExp} matcherRegex
 	 */
 	matcherRegex: /((?:\+?(\d*)[ -]?)?(?:(\(?(\d{2,4})\)?([ -]?)){3,10}?)([,;]*[0-9]+#?)*)(?: |$|\n)/g,
-	dateMatcherRegex: /( |^)(\d{2}|\d{4})-\d{2}-\d{2}( |$|\n)/g,
+	dateMatcherRegex: /( |^)(\d{2}|\d{4})[-/]\d{2}[-/]\d{2}( |$|\n)/g,
 
 	// ex: (123) 456-7890, 123 456 7890, 123-456-7890, +18004441234,,;,10226420346#,
 	// +1 (800) 444 1234, 10226420346#, 1-800-444-1234,1022,64,20346#
